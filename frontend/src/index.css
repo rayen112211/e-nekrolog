@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+@layer base {
+    :root {
+        /* Dignified memorial color palette - soft, respectful, elegant */
+        --background: 0 0% 98%;
+        --foreground: 210 15% 20%;
+        
+        --card: 0 0% 100%;
+        --card-foreground: 210 15% 20%;
+        
+        --popover: 0 0% 100%;
+        --popover-foreground: 210 15% 20%;
+        
+        /* Primary - soft warm gray, elegant and respectful */
+        --primary: 30 8% 35%;
+        --primary-foreground: 0 0% 98%;
+        
+        /* Secondary - warm beige, comforting */
+        --secondary: 30 20% 90%;
+        --secondary-foreground: 30 8% 25%;
+        
+        /* Muted - very soft gray-beige */
+        --muted: 30 15% 94%;
+        --muted-foreground: 210 10% 45%;
+        
+        /* Accent - soft muted blue, calm and serene */
+        --accent: 210 25% 85%;
+        --accent-foreground: 210 30% 30%;
+        
+        /* Accent blue for links and subtle highlights */
+        --accent-blue: 210 40% 65%;
+        --accent-blue-foreground: 210 50% 25%;
+        
+        --destructive: 0 50% 50%;
+        --destructive-foreground: 0 0% 98%;
+        
+        --border: 30 15% 88%;
+        --input: 30 15% 88%;
+        --ring: 210 40% 65%;
+        
+        --radius: 0.5rem;
+        
+        /* Custom design tokens for memorial aesthetic */
+        --memorial-beige: 30 20% 92%;
+        --memorial-gray: 210 10% 50%;
+        --memorial-blue: 210 35% 70%;
+        --memorial-text: 210 15% 25%;
+        
+        /* Shadows - very subtle, elegant */
+        --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.03);
+        --shadow-md: 0 2px 6px -1px rgb(0 0 0 / 0.06), 0 1px 2px -1px rgb(0 0 0 / 0.04);
+        --shadow-lg: 0 4px 12px -2px rgb(0 0 0 / 0.08), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+        
+        /* Transitions - smooth and gentle */
+        --transition-smooth: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .dark {
+        --background: 210 20% 12%;
+        --foreground: 0 0% 95%;
+        --card: 210 20% 15%;
+        --card-foreground: 0 0% 95%;
+        --popover: 210 20% 15%;
+        --popover-foreground: 0 0% 95%;
+        --primary: 30 15% 75%;
+        --primary-foreground: 210 20% 12%;
+        --secondary: 210 15% 20%;
+        --secondary-foreground: 0 0% 95%;
+        --muted: 210 15% 18%;
+        --muted-foreground: 210 10% 60%;
+        --accent: 210 25% 25%;
+        --accent-foreground: 210 30% 85%;
+        --accent-blue: 210 40% 55%;
+        --accent-blue-foreground: 210 30% 90%;
+        --destructive: 0 50% 40%;
+        --destructive-foreground: 0 0% 95%;
+        --border: 210 15% 22%;
+        --input: 210 15% 22%;
+        --ring: 210 40% 55%;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+    body {
+        @apply bg-background text-foreground;
+    }
+    
+    /* Typography - elegant serif for headings */
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: 500;
+    }
+}
+
+@layer utilities {
+    /* Custom memorial utilities */
+    .memorial-shadow {
+        box-shadow: var(--shadow-md);
+    }
+    
+    .memorial-shadow-lg {
+        box-shadow: var(--shadow-lg);
+    }
+    
+    .transition-memorial {
+        transition: all var(--transition-smooth);
+    }
+    
+    /* Elegant dividers */
+    .memorial-divider {
+        height: 1px;
+        background: linear-gradient(to right, transparent, hsl(var(--border)), transparent);
+    }
+}
+
+@layer base {
+    [data-debug-wrapper="true"] {
+        display: contents !important;
+    }
+
+    [data-debug-wrapper="true"] > * {
+        margin-left: inherit;
+        margin-right: inherit;
+        margin-top: inherit;
+        margin-bottom: inherit;
+        padding-left: inherit;
+        padding-right: inherit;
+        padding-top: inherit;
+        padding-bottom: inherit;
+        column-gap: inherit;
+        row-gap: inherit;
+        gap: inherit;
+        border-left-width: inherit;
+        border-right-width: inherit;
+        border-top-width: inherit;
+        border-bottom-width: inherit;
+        border-left-style: inherit;
+        border-right-style: inherit;
+        border-top-style: inherit;
+        border-bottom-style: inherit;
+        border-left-color: inherit;
+        border-right-color: inherit;
+        border-top-color: inherit;
+        border-bottom-color: inherit;
+    }
+}
