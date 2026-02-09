@@ -31,7 +31,7 @@ git add .
 git commit -m "Initial commit: e-Nekrolog platform"
 
 # 4. Create repo on GitHub.com, then:
-git remote add origin https://github.com/YOUR_USERNAME/e-nekrolog.git
+git remote add origin https://github.com/rayen112211/e-nekrolog.git
 git branch -M main
 git push -u origin main
 ```

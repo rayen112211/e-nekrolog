@@ -1,7 +1,3 @@
-<div align="center">
-
-![e-Nekrolog Banner](/.github/banner.png)
-
 # 🕯️ e-Nekrolog - Digital Memorial Platform
 
 **A modern, elegant platform for creating and sharing digital obituaries and memorial pages**
@@ -17,18 +13,18 @@
 
 ---
 
-## 📋 About
+## 📋 About The Project
 
-**e-Nekrolog** is a comprehensive digital memorial platform that enables families and funeral homes to create beautiful, personalized obituaries and memorial pages. With an intuitive step-by-step creator, multiple elegant themes, and powerful features like RSVP management, virtual candles, and anniversary reminders, e-Nekrolog brings memorial services into the digital age.
+Hi! I'm Rayen, and I built **e-Nekrolog** to help families navigate one of life's most difficult moments with dignity and ease.
 
-### Why e-Nekrolog?
+This platform isn't just about code; it's about connecting people when they need it most. I wanted to create a space where memories can be preserved beautifully, without the technical hassle. Whether you're a family member creating a tribute for a loved one, or a funeral home looking to offer a modern service, e-Nekrolog is designed to be simple, respectful, and deeply personal.
 
-✅ **Simple & Elegant** - 4 beautiful themes to choose from  
-✅ **Self-Service** - Families create everything themselves  
-✅ **B2B Ready** - Funeral homes can add their branding  
-✅ **RSVP Management** - Track attendance for memorial services  
-✅ **Modern UX** - Step-by-step form with progress tracking  
-✅ **Bilingual** - Full Polish and English support
+### Why I Built This?
+
+✅ **Simplicity First** - I believe technology should help, not complicate. That's why the 4-step creator is as easy as possible.
+✅ **Respectful Design** - Every pixel was chosen to convey peace and respect.
+✅ **Bringing People Together** - The RSVP and condolence features are there to make sure no one grieves alone.
+✅ **Modern & Accessible** - Built with the latest tech to ensure it works perfectly on every device, for everyone.
 
 ---
 
@@ -276,7 +272,7 @@ git commit -m "Initial commit: e-Nekrolog digital memorial platform"
 
 ```bash
 # Add GitHub repository as remote
-git remote add origin https://github.com/YOUR_USERNAME/e-nekrolog.git
+git remote add origin https://github.com/rayen112211/e-nekrolog.git
 
 # Push to GitHub
 git branch -M main
@@ -306,9 +302,9 @@ This project is proprietary software. All rights reserved.
 
 ## 👨‍💻 Author
 
-**Azizi**
+**Rayen**
 
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+- GitHub: [https://github.com/rayen112211](https://github.com/rayen112211)
 
 ---
 
@@ -322,7 +318,7 @@ This project is proprietary software. All rights reserved.
 
 <div align="center">
 
-**Made with 🕯️ for honoring memories**
+**Made with ❤️ by Rayen**
 
 [⬆ Back to Top](#️-e-nekrolog---digital-memorial-platform)
 

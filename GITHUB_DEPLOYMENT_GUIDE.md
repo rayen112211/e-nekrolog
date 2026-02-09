@@ -103,7 +103,7 @@ GitHub will show you commands after creating the repository. Use these:
 
 ```bash
 # Add GitHub as remote origin
-git remote add origin https://github.com/YOUR_USERNAME/e-nekrolog.git
+git remote add origin https://github.com/rayen112211/e-nekrolog.git
 
 # Rename branch to main (if needed)
 git branch -M main
@@ -112,7 +112,7 @@ git branch -M main
 git push -u origin main
 ```
 
-> ⚠️ **Replace `YOUR_USERNAME`** with your actual GitHub username!
+> ⚠️ **Replace `rayen112211` with your actual GitHub username!**
 
 ### If you're prompted for credentials:
 
@@ -226,7 +226,7 @@ cd frontend
 npm install --save-dev gh-pages
 
 # Add to package.json:
-# "homepage": "https://YOUR_USERNAME.github.io/e-nekrolog",
+# "homepage": "https://rayen112211.github.io/e-nekrolog",
 # In scripts section:
 # "predeploy": "npm run build",
 # "deploy": "gh-pages -d build"
@@ -276,7 +276,7 @@ git push
 
 Your repository is now live at:
 ```
-https://github.com/YOUR_USERNAME/e-nekrolog
+https://github.com/rayen112211/e-nekrolog
 ```
 
 ### Show it off:
